@@ -11,5 +11,19 @@
       The password is: 2717
     </p>
     <p>Enter Password Here: <input id="box" type="text" placeholder="Type the password!"/></p>
+    <img src="skibiditoilet.png" id = "imageSwitch">
+    <button onclick="switchImage('sjeh.png');"> Switch the Image </button>
+    <script>
+      function switchImage(skibidi){
+        password = document.getElementById("box");
+        if(password = "2899"){
+          return true;
+          document.getElementById("imageSwitch") = skibidi;
+        }else{
+          alert("You didn't unlock. Shucks for you.")
+          return false;
+        }
+      }
+    </script>
   </body>
 </html>
